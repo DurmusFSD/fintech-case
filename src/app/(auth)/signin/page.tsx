@@ -43,14 +43,11 @@ export default function SignInPage() {
 
   return (
     <form onSubmit={onSubmit} className="min-h-dvh w-full bg-white">
-      {/* 4K kontrolü + genel padding */}
       <div className="mx-auto w-full max-w-[1440px] px-4 sm:px-6 lg:px-0">
-        {/* Logo */}
         <div className="pt-8 sm:pt-10 lg:pt-[40px] lg:pl-[135px]">
           <Image src="/assets/logo.png" alt="Fintech logo" width={107} height={30} priority />
         </div>
 
-        {/* Form blok */}
         <div className="mt-10 sm:mt-12 lg:mt-[30px] lg:pl-[135px]">
           <div className="w-full max-w-[404px] mx-auto lg:mx-0 flex flex-col gap-[25px]">
             <div className="flex flex-col gap-[4px]">
